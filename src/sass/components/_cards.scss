@@ -1,0 +1,81 @@
+.testimonial-card {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	padding: 2rem;
+	border-radius: 1.5rem;
+	color: hsl(var(--clr-neutral-100));
+
+	& > *:where(:not(:first-child)) {
+		margin-top: var(--content-spacer);
+	}
+
+	&__person {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 1.5rem;
+
+		.person-image {
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			overflow: hidden;
+			border: solid 3px hsla(var(--clr-neutral-100) / 0.3);
+
+			img {
+				width: 45px;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+	}
+
+	&.quote {
+		background-image: url('../img/bg-pattern-quotation.svg');
+		background-repeat: no-repeat;
+		background-position: top right 10%;
+		background-size: 140px;
+	}
+
+	&:nth-child(1) {
+		background-color: hsl(var(--clr-primary-400));
+		grid-area: one;
+	}
+
+	&:nth-child(2) {
+		background-color: hsl(var(--clr-secondary-400));
+		grid-area: two;
+	}
+
+	&:nth-child(3) {
+		background-color: hsl(var(--clr-neutral-100));
+		color: hsl(var(--clr-secondary-500));
+		grid-area: three;
+		box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+			rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+			rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	}
+
+	&:nth-child(4) {
+		background-color: hsl(var(--clr-secondary-500));
+		grid-area: four;
+	}
+
+	&:nth-child(5) {
+		background-color: hsl(var(--clr-neutral-100));
+		color: hsl(var(--clr-secondary-500));
+		grid-area: five;
+		box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+			rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+			rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	}
+}
+
+@media (min-width: 768px) {
+	.testimonial-card {
+		&.quote {
+			background-position: top right 20%;
+		}
+	}
+}
