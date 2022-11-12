@@ -85,7 +85,7 @@ body {
   color: var(--clr-neutral-300);
 }
 
-h5 {
+h2 {
   font-size: var(--fs-400);
   font-weight: var(--fw-400);
 }
