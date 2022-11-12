@@ -1,4 +1,4 @@
-# <a href="https://satrop.github.io//">Frontend Mentor - Grid Layout Testimonials solution</a>
+# <a href="https://satrop.github.io/Grid_Layout_Testimonials/public/">Frontend Mentor - Grid Layout Testimonials solution</a>
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -14,7 +14,7 @@ First real time using the grid and I really like it! There is a mix of both grid
 
 ### Links
 
--   Solution URL: <a href="https://satrop.github.io//">Grid Layout Testimonials</a>
+-   Solution URL: <a href="https://satrop.github.io/Grid_Layout_Testimonials/public/">Grid Layout Testimonials</a>
 
 ## My process
 
